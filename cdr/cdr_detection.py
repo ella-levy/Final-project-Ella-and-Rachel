@@ -3,22 +3,16 @@ import math
 from collections import Counter
 
 
-
 FASTA_PATH = "data/antibodies_expanded.fasta"   # where to read sequences from
 RESULTS_DIR = "results"  # where to save output files
-FILTER_ORGANISM = "Homo sapiens"   # only keep human sequences
-STD_MULTIPLIER  = 1.0    # threshold = mean + this * std
+STD_MULTIPLIER = 1.0  # threshold = mean + this * std
                           # 1.0 catches ~16% of positions (flexible)
                           # 2.0 catches ~3%  of positions (strict)
-MIN_REGION_LEN  = 3      # a CDR region must be at least this many positions long
+MIN_REGION_LEN  = 3 # a CDR region must be at least this many positions long
 
-
-def parse_fasta(filepath, filter_organism):
+def parse_fasta(filepath):
     """
-    Read FASTA file that contains multiple sequences
-    We read every sequence and filter to keep only the ones
-    from the organism we care about (Homo sapiens)
-
+    Read FASTA file that contains multiple homo sepiens sequences.
     Returns a dict: { header_string : sequence_string }
     """
 
@@ -37,7 +31,7 @@ def parse_fasta(filepath, filter_organism):
                 if current_header and current_seq:
                     sequences[current_header] = "".join(current_seq).upper()
                 current_header = line[1:]   # remove the ">"
-                current_seq  = []
+                current_seq = []
             else:
                 # Sequence lines can be multiple lines
                 current_seq.append(line)
@@ -46,26 +40,19 @@ def parse_fasta(filepath, filter_organism):
         if current_header and current_seq:
             sequences[current_header] = "".join(current_seq).upper()
 
-    # Keep only sequences from the organism we want
-    filtered = {h: s for h, s in sequences.items() if filter_organism in h}
-
-    # summary of what we loaded
+    # print summary of what we loaded
     print(f"Loaded sequences from {filepath}:")
-    for header, seq in filtered.items():
+    for header, seq in sequences.items():
         parts = header.split("|")
         pdb_id = parts[0] if parts else header
         chain_desc = parts[2] if len(parts) > 2 else "?"
         print(f"{pdb_id:10s} | {chain_desc[:40]:40s} | {len(seq)} aa")
-    return filtered
-
+    return sequences
 
 def calculate_entropy(sequences):
     """
-    For each position (column) calculate the entropy (we explained the logic in הצעת מחקר)
-
+    For each position (column) calculate the entropy
     The formula:  H = -sum( pᵢ * log2(pᵢ) )
-    where pᵢ = frequency of amino acid i at this position.
-
     Input:  list of sequence strings
     Output: list of entropy values, one per position
     """
@@ -79,7 +66,6 @@ def calculate_entropy(sequences):
     entropy_values = []
 
     for col in range(num_positions):
-
         # Grab the amino acid from every sequence at this column
         column = [seq[col] for seq in sequences]
 
@@ -102,7 +88,7 @@ def calculate_entropy(sequences):
 
 def find_cdr_regions(entropy_values, std_multiplier, min_region_length):
     """
-    Find positions above the variability threshold then group consecutive ones into CDR  regions
+    Find positions above the threshold then group consecutive ones into CDR regions
     Threshold = mean + std_multiplier * std
 
     Input:
@@ -119,6 +105,7 @@ def find_cdr_regions(entropy_values, std_multiplier, min_region_length):
     std = math.sqrt(variance)
     threshold = mean + std_multiplier * std
 
+#print info
     print(f"\n Entropy statistics:")
     print(f"Mean: {mean:.4f}")
     print(f"Std: {std:.4f}")
@@ -128,8 +115,7 @@ def find_cdr_regions(entropy_values, std_multiplier, min_region_length):
     high_positions = [i for i, h in enumerate(entropy_values) if h >= threshold]
     print(f"positions above threshold: {len(high_positions)} / {n}")
 
-    # Group consecutive high-variability positions into regions
-    # Example: [5,6,7,10,20,21,22] → [(5,7),(20,22)]  (skips 10 — too short)
+    # Group consecutive positions into regions
     regions = []
     if high_positions:
         start = high_positions[0]
@@ -159,7 +145,6 @@ def find_cdr_regions(entropy_values, std_multiplier, min_region_length):
 def print_results(chain_name, results, entropy_values, chain_seqs):
     """
     Print a readable summary of what we found
-    Shows the actual sequence at each CDR region for every antibody so we can visually see how different the amino acids are
     """
 
     regions = results["cdr_regions"]
@@ -180,7 +165,6 @@ def print_results(chain_name, results, entropy_values, chain_seqs):
         print(f"  CDR candidate {i}: positions {start}-{end}  "
               f"(length={length}, avg_entropy={avg_entropy:.4f})")
 
-        # Show what each antibody has at this region — the diversity is visible here
         for header, seq in chain_seqs.items():
             parts = header.split("|")
             pdb_id = parts[0] if parts else header
@@ -284,12 +268,12 @@ def main():
 
     os.makedirs(RESULTS_DIR, exist_ok=True)
 
-    # First make sure the math is correct on a known example
+    #  make sure the math is correct on a known example
     run_validation()
 
     # Load all sequences from the FASTA file
     print(f"Loading sequences from: {FASTA_PATH}\n")
-    all_seqs = parse_fasta(FASTA_PATH, FILTER_ORGANISM)
+    all_seqs = parse_fasta(FASTA_PATH)
 
     if not all_seqs:
         print("No sequences found. Check the FASTA file path.")

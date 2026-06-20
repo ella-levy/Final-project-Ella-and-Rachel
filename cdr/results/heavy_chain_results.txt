@@ -1,272 +1,306 @@
 CDR Detection Results - Heavy Chain
 ============================================================
 
-Sequences analysed: 10
-Positions: 220
-Threshold: 2.42593
-Mean entropy: 1.80155
-Std entropy: 0.62438
+Sequences analysed: 83
+Positions: 120
+Threshold: 3.36832
+Mean entropy: 2.53216
+Std entropy: 0.83616
 
-Candidate CDR regions (3 found):
+Candidate CDR regions (2 found):
 ------------------------------------------------------------
 
-CDR candidate 1: positions 101-104 (length=4, avg_H=2.4842)
- 3QEG_1       | Fab fragment of human anti-HIV anti | DFSY
- 1U8P_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | GPTT
- 4KMT_2       | heavy chain 5-51/CNTO888/IGG1       | IYGE
- 6OGE_5       | Trastuzumab FAB HEAVY CHAIN         | DGFY
- 6OGE_3       | Pertuzumab FAB HEAVY CHAIN          | PSFY
- 1U8O_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | GPTT
- 5I1E_2       | FAB HEAVY CHAIN                     | YGEL
- 5I19_2       | FAB HEAVY CHAIN                     | IYGE
- 1DFB_2       | IGG1-KAPPA 3D6 FAB (HEAVY CHAIN)    | YYDS
- 5XRQ_1       | Fab H3v-47 heavy chain, anti-influe | KVEP
+CDR candidate 1: positions 98-112 (length=15, avg_H=3.7123)
+ 3QEG_1       | Fab fragment of human anti-HIV anti | DSRDFSYYEPGTSYS
+ 1U8P_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | HRRGPTTLFGVPIAR
+ 4KMT_2       | heavy chain 5-51/CNTO888/IGG1       | YDGIYGELDFWGQGT
+ 6OGE_5       | Trastuzumab FAB HEAVY CHAIN         | WGGDGFYAMDYWGQG
+ 6OGE_3       | Pertuzumab FAB HEAVY CHAIN          | NLGPSFYFDYWGQGT
+ 1U8O_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | HRRGPTTLFGVPIAR
+ 5I1E_2       | FAB HEAVY CHAIN                     | DGIYGELDFWGQGTL
+ 5I19_2       | FAB HEAVY CHAIN                     | YDGIYGELDFWGQGT
+ 1DFB_2       | IGG1-KAPPA 3D6 FAB (HEAVY CHAIN)    | GRDYYDSGGYFTVAF
+ 5XRQ_1       | Fab H3v-47 heavy chain, anti-influe | GASKVEPAAPAYSDA
+ 3BAE_2       | WO2 IgG2a Fab fragment Heavy Chain  | RRGFYGRKYEVNHFD
+ 9B9J_3       | BIIG2 Fab Heavy Chain               | RTMGMTTPFDYWGQG
+ 9B9K_3       | MINT1526A Fab Heavy Chain           | TSLTGMRYFDYWGQG
+ 6GFF_5       | MHG-8 Fab heavy chain               | RNYYDYDGAMDYWGQ
+ 5GS0_4       | heavy chain (anti-Lid)              | AYIGFAYWGQGTLVT
+ 9PIW_1       | Heavy chain                         | DSYYISWMVFISGLD
+ 9DL0_1       | Fab heavy chain                     | FSYMSGSVFWALDYW
+ 3WD5_3       | Adalimumab Heavy Chain              | VSYLSTASSLDYWGQ
+ 9DZQ_2       | Human antibody PIV3HN-05 heavy chai | ESAVISSPSWGLYDT
+ 9DZQ_4       | Human antibody PIV3HN-13 heavy chai | FFRSDGVFHFDYWGP
+ 4K7P_2       | antibody rhumAb6 Fab fragment heavy | VVYYSASYWYFDVWG
+ 4K7P_3       | antibody 10C4 Fab fragment heavy ch | EGNLWGNYANWFFDV
+ 6PHD_1       | 2586 Antibody Fab, Heavy Chain      | VRVGGLGERGDYYYY
+ 5FHA_1       | Antibody 114 Fab heavy chain        | DRGVAGLFDSWGQGI
+ 6R2S_2       | Antibody DB9 heavy chain            | YYSGSTYYNPSLKSR
+ 5UY3_2       | Antibody PGT144 Fab heavy chain     | HRLRDYVLYDDYGLI
+ 6NN3_2       | Fab monoclonal antibody 860-55D, he | VDSVRGAGDNGFDPW
+ 4YBL_2       | A32 antibody Fab heavy chain        | RGTRLRTLRNAFDIW
+ 3MLT_2       | Human monoclonal anti-HIV-1 gp120 V | LYLFEGAQSSNAFDL
+ 1MCO_2       | IGG1 MCG INTACT ANTIBODY (HEAVY CHA | RVPLVVNPWGQGTLV
+ 3MLW_2       | Human monoclonal anti-HIV-1 gp120 V | LHYSDRSGSYFNDVF
+ 6P9J_1       | human anti staphylococcus aureus an | PHCSSRTCQRVSGYY
+ 3MLS_2       | Human monoclonal anti-HIV-1 gp120 V | LYLFEGAQSSNAFDL
+ 8TFP_2       | Heavy chain of Fab from C10-S66K an | EVVGPTTGYFDLWGR
+ 3Q6F_2       | Heavy chain of Fab of human mAb 290 | DKGDSDYDYNLGYSY
+ 1RZ8_2       | Fab 17b heavy chain                 | VYEGEADEGEYDNNG
+ 3PIQ_1       | Human monoclonal antibody 2909 Fab  | DKGDSDYDYNLGYSY
+ 6OZ3_2       | N49P9.1 antibody Fab heavy chain    | GPSGENYPFHYWGQG
+ 6VN1_2       | Human monoclonal antibody 93k varia | DITAPGAAPTPLNFY
+ 7SN1_1       | neutralizing antibody C1C-A3 Fab he | NTLYLQMNSLRAEDT
+ 8TFR_2       | Heavy chain from Fab of C10_S66K an | EVVGPTTGYFDLWGR
+ 5W4L_3       | Antibody N5-i5 Fab heavy chain      | DLRLGGGSDYWGQGT
+ 5W4L_5       | Antibody N12-i3 Fab heavy chain     | RQHHEYFQEWGQGTL
+ 6U85_1       | Antibody Fab heavy chain            | RTYFYSFSYWGQGTL
+ 5I1I_2       | FAB HEAVY CHAIN                     | DGIYGELDFWGQGTL
+ 3MLX_2       | Human monoclonal anti-HIV-1 gp120 V | FGEYHYDGRGFQCEG
+ 6MEG_1       | antibody HEPC46 Heavy Chain         | ASQIRGVDYWGQGTL
+ 3MA9_2       | Fab8066 FAB ANTIBODY FRAGMENT, Heav | YFDTYNNYGFANWGQ
+ 6OZ2_2       | N49P6 antibody Fab heavy chain      | RANGSGRRRFESVNW
+ 3GIZ_2       | Fab fragment of anti-CD20 antibody  | DIQYGNYYYGMDVWG
+ 5NST_2       | Heavy Chain of antibody MGD21       | ASPLKSQRDTDLPRP
+ 6ELJ_1       | fAB heavy chain                     | PNYYGSRYHYYAMDY
+ 6ELL_1       | fAB heavy chain                     | PNYYGSRYHYYAMDY
+ 5I1A_2       | CNTO388 HEAVY CHAIN                 | YDGIYGELDFWGQGT
+ 3MOD_3       | ANTI-HIV-1 ANTIBODY 2F5 HEAVY CHAIN | HRRGPTTLFGVPIAR
+ 9XSX_2       | the heavy chain of antibody CF22    | FSLRLTAVTAADTAF
+ 2I60_3       | ANTIBODY 17B HEAVY CHAIN            | VYEGEADEGEYDNNG
+ 9B75_1       | h44H10-V17 Antibody, heavy chain    | YGDYVHYAMDYWGQG
+ 2PW2_1       | 2F5 Fab' heavy chain                | GGGTRVDVRRTVAAP
+ 4XMK_2       | Heavy chain of HIV-1 gp120 V3-speci | NADYGSDYYFGMDVW
+ 5EA0_1       | Heavy chain of antibody 7968 Fab fr | GGAAAAVMDVWGKGT
+ 4FNL_1       | Antibody C05, Heavy Chain           | YYCAKHMSMQQVVSA
+ 9XTH_1       | the heavy chain of antibody CAV-CH7 | YMDLSSLRSEDTAIY
+ 6P9H_2       | Human anti staphylococcus aureus an | KEDGRRDDVFDIWGQ
+ 6N8D_3       | A1431 Fab heavy chain               | DGPRPDGTGYAGPSN
+ 5I1J_2       | FAB HEAVY CHAIN                     | YDGIYGELDFWGQGT
+ 1YYL_3       | antibody 17b heavy chain            | VYEGEADEGEYDNNG
+ 1YYM_3       | antibody 17b heavy chain            | VYEGEADEGEYDNNG
+ 7SX7_2       | N49P9.3-FR3-3 ANTIBODY FAB HEAVY CH | AVYYCARGPSGENYP
+ 6MEF_1       | antibody AR3C Heavy Chain           | SVTPRYCGGGFCYGE
+ 5F9W_2       | Heavy chain of CH235-lineage antibo | NVATEGSLLHYDYWG
+ 4LST_2       | HEAVY CHAIN OF ANTIBODY VRC01       | GKNCDYNWDFEHWGR
+ 6MTT_2       | Antibody VRC46.01 Fab heavy chain   | HSNSWFSPKWYFDVW
+ 8TUZ_1       | Heavy chain of human monoclonal ant | HITTHTYRGFFDFWG
+ 7MFA_1       | Antibody 10E8v4 Fab heavy chain     | ARTGKYYDFWSGYAA
+ 3MUG_2       | Antibody PG16 Heavy Chain           | EAGGPIWHDDVKYYD
+ 9OG2_2       | Monoclonal antibody 12I12 heavy cha | ARHTDSRAWYYFDYW
+ 9OG2_4       | Monoclonal antibody 08E11 heavy cha | CARPFSYGAGYYFDS
+ 6DZN_2       | Antibody ADI-15878, heavy chain     | DHRVWAAGYHFDYWG
+ 6B0E_2       | 1260 antibody, heavy chain          | DRGDRLYYYYYYGMD
+ 6W4M_3       | ANTI-HIV ANTIBODY N12-I2 FAB HEAVY  | DSRDFSYYEPGTSYS
+ 6B0W_2       | 1710 antibody, heavy chain          | DPGIAAADNHWFDPW
+ 4CC8_3       | MONOCLONAL ANTIBODY VRC03 FAB HEAVY | AEYFCVRRGSCDYCG
 
-CDR candidate 2: positions 107-109 (length=3, avg_H=2.4716)
- 3QEG_1       | Fab fragment of human anti-HIV anti | PGT
- 1U8P_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | GVP
- 4KMT_2       | heavy chain 5-51/CNTO888/IGG1       | FWG
- 6OGE_5       | Trastuzumab FAB HEAVY CHAIN         | DYW
- 6OGE_3       | Pertuzumab FAB HEAVY CHAIN          | YWG
- 1U8O_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | GVP
- 5I1E_2       | FAB HEAVY CHAIN                     | WGQ
- 5I19_2       | FAB HEAVY CHAIN                     | FWG
- 1DFB_2       | IGG1-KAPPA 3D6 FAB (HEAVY CHAIN)    | YFT
- 5XRQ_1       | Fab H3v-47 heavy chain, anti-influe | PAY
-
-CDR candidate 3: positions 112-114 (length=3, avg_H=2.6464)
- 3QEG_1       | Fab fragment of human anti-HIV anti | SHY
- 1U8P_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | RGP
- 4KMT_2       | heavy chain 5-51/CNTO888/IGG1       | TLV
- 6OGE_5       | Trastuzumab FAB HEAVY CHAIN         | GTL
- 6OGE_3       | Pertuzumab FAB HEAVY CHAIN          | TLV
- 1U8O_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | RGP
- 5I1E_2       | FAB HEAVY CHAIN                     | LVT
- 5I19_2       | FAB HEAVY CHAIN                     | TLV
- 1DFB_2       | IGG1-KAPPA 3D6 FAB (HEAVY CHAIN)    | FDI
- 5XRQ_1       | Fab H3v-47 heavy chain, anti-influe | AFD
+CDR candidate 2: positions 114-119 (length=6, avg_H=3.5471)
+ 3QEG_1       | Fab fragment of human anti-HIV anti | YYNIMD
+ 1U8P_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | PVNAMD
+ 4KMT_2       | heavy chain 5-51/CNTO888/IGG1       | VTVSSA
+ 6OGE_5       | Trastuzumab FAB HEAVY CHAIN         | LVTVSS
+ 6OGE_3       | Pertuzumab FAB HEAVY CHAIN          | VTVSSA
+ 1U8O_2       | ANTIBODY 2F5 (HEAVY CHAIN)          | PVNAMD
+ 5I1E_2       | FAB HEAVY CHAIN                     | TVSSAS
+ 5I19_2       | FAB HEAVY CHAIN                     | VTVSSA
+ 1DFB_2       | IGG1-KAPPA 3D6 FAB (HEAVY CHAIN)    | IWGQGT
+ 5XRQ_1       | Fab H3v-47 heavy chain, anti-influe | DMWGQG
+ 3BAE_2       | WO2 IgG2a Fab fragment Heavy Chain  | WGQGTT
+ 9B9J_3       | BIIG2 Fab Heavy Chain               | MVTVSS
+ 9B9K_3       | MINT1526A Fab Heavy Chain           | MVTVSS
+ 6GFF_5       | MHG-8 Fab heavy chain               | TSVTVS
+ 5GS0_4       | heavy chain (anti-Lid)              | SSGGGG
+ 9PIW_1       | Heavy chain                         | WGQGTL
+ 9DL0_1       | Fab heavy chain                     | QGTLVT
+ 3WD5_3       | Adalimumab Heavy Chain              | TLVTVS
+ 9DZQ_2       | Human antibody PIV3HN-05 heavy chai | YHFDPW
+ 9DZQ_4       | Human antibody PIV3HN-13 heavy chai | NPGSPS
+ 4K7P_2       | antibody rhumAb6 Fab fragment heavy | GTLVTV
+ 4K7P_3       | antibody 10C4 Fab fragment heavy ch | GAGTTL
+ 6PHD_1       | 2586 Antibody Fab, Heavy Chain      | MDVWGK
+ 5FHA_1       | Antibody 114 Fab heavy chain        | VTVSSA
+ 6R2S_2       | Antibody DB9 heavy chain            | TISVDT
+ 5UY3_2       | Antibody PGT144 Fab heavy chain     | QQEWND
+ 6NN3_2       | Fab monoclonal antibody 860-55D, he | HGTLVT
+ 4YBL_2       | A32 antibody Fab heavy chain        | QGTMVT
+ 3MLT_2       | Human monoclonal anti-HIV-1 gp120 V | GQGTMI
+ 1MCO_2       | IGG1 MCG INTACT ANTIBODY (HEAVY CHA | VSSAST
+ 3MLW_2       | Human monoclonal anti-HIV-1 gp120 V | MWGQGT
+ 6P9J_1       | human anti staphylococcus aureus an | GMDVWG
+ 3MLS_2       | Human monoclonal anti-HIV-1 gp120 V | GQGTMI
+ 8TFP_2       | Heavy chain of Fab from C10-S66K an | TLVTIV
+ 3Q6F_2       | Heavy chain of Fab of human mAb 290 | YYMDGW
+ 1RZ8_2       | Fab 17b heavy chain                 | LKHWGQ
+ 3PIQ_1       | Human monoclonal antibody 2909 Fab  | YYMDGW
+ 6OZ3_2       | N49P9.1 antibody Fab heavy chain    | RVVVSS
+ 6VN1_2       | Human monoclonal antibody 93k varia | MDVWGQ
+ 7SN1_1       | neutralizing antibody C1C-A3 Fab he | VYYCAR
+ 8TFR_2       | Heavy chain from Fab of C10_S66K an | TLVTIS
+ 5W4L_3       | Antibody N5-i5 Fab heavy chain      | VTVSSA
+ 5W4L_5       | Antibody N12-i3 Fab heavy chain     | TVSSAS
+ 6U85_1       | Antibody Fab heavy chain            | TVSSAS
+ 5I1I_2       | FAB HEAVY CHAIN                     | TVSSAS
+ 3MLX_2       | Human monoclonal anti-HIV-1 gp120 V | DLWGQG
+ 6MEG_1       | antibody HEPC46 Heavy Chain         | TVSSAS
+ 3MA9_2       | Fab8066 FAB ANTIBODY FRAGMENT, Heav | TLVTVS
+ 6OZ2_2       | N49P6 antibody Fab heavy chain      | LDLWGR
+ 3GIZ_2       | Fab fragment of anti-CD20 antibody  | GTTVTV
+ 5NST_2       | Heavy Chain of antibody MGD21       | ISAEPG
+ 6ELJ_1       | fAB heavy chain                     | GQGTLV
+ 6ELL_1       | fAB heavy chain                     | GQGTLV
+ 5I1A_2       | CNTO388 HEAVY CHAIN                 | VTVSSA
+ 3MOD_3       | ANTI-HIV-1 ANTIBODY 2F5 HEAVY CHAIN | PVNAMD
+ 9XSX_2       | the heavy chain of antibody CF22    | YCARAN
+ 2I60_3       | ANTIBODY 17B HEAVY CHAIN            | LKHWGQ
+ 9B75_1       | h44H10-V17 Antibody, heavy chain    | LVTVSS
+ 2PW2_1       | 2F5 Fab' heavy chain                | VFIFPP
+ 4XMK_2       | Heavy chain of HIV-1 gp120 V3-speci | QGTAVA
+ 5EA0_1       | Heavy chain of antibody 7968 Fab fr | VTVSSA
+ 4FNL_1       | Antibody C05, Heavy Chain           | WERADL
+ 9XTH_1       | the heavy chain of antibody CAV-CH7 | CARTSL
+ 6P9H_2       | Human anti staphylococcus aureus an | TLVTVS
+ 6N8D_3       | A1431 Fab heavy chain               | YWGQGT
+ 5I1J_2       | FAB HEAVY CHAIN                     | VTVSSA
+ 1YYL_3       | antibody 17b heavy chain            | LKHWGQ
+ 1YYM_3       | antibody 17b heavy chain            | LKHWGQ
+ 7SX7_2       | N49P9.3-FR3-3 ANTIBODY FAB HEAVY CH | HYWGQG
+ 6MEF_1       | antibody AR3C Heavy Chain           | DYWGQG
+ 5F9W_2       | Heavy chain of CH235-lineage antibo | GTLVTV
+ 4LST_2       | HEAVY CHAIN OF ANTIBODY VRC01       | TPVIVS
+ 6MTT_2       | Antibody VRC46.01 Fab heavy chain   | RGTLVT
+ 8TUZ_1       | Heavy chain of human monoclonal ant | GTLVTV
+ 7MFA_1       | Antibody 10E8v4 Fab heavy chain     | EEYFQD
+ 3MUG_2       | Antibody PG16 Heavy Chain           | NDGYYN
+ 9OG2_2       | Monoclonal antibody 12I12 heavy cha | QGTLVT
+ 9OG2_4       | Monoclonal antibody 08E11 heavy cha | GQGALV
+ 6DZN_2       | Antibody ADI-15878, heavy chain     | GALVTV
+ 6B0E_2       | 1260 antibody, heavy chain          | WGQGTT
+ 6W4M_3       | ANTI-HIV ANTIBODY N12-I2 FAB HEAVY  | YYNIMD
+ 6B0W_2       | 1710 antibody, heavy chain          | QGTLVT
+ 4CC8_3       | MONOCLONAL ANTIBODY VRC03 FAB HEAVY | FPWQYW
 
 
 Full entropy map:
 ----------------------------------------
   Pos    Entropy  Note
-    0    1.37095
-    1    0.72193
-    2    0.72193
-    3    0.00000
-    4    1.15678
-    5    0.88129
-    6    0.46900
-    7    0.00000
-    8    1.48548
-    9    1.48548
-   10    0.88129
-   11    1.29546
-   12    1.00000
-   13    0.00000
-   14    0.72193
-   15    2.12193
-   16    0.72193
-   17    0.72193
-   18    1.37095
-   19    1.15678
-   20    0.72193
-   21    0.00000
-   22    1.76096
-   23    1.15678
-   24    0.00000
-   25    0.46900
-   26    1.35678
-   27    1.29546
-   28    1.57095
-   29    1.57095
-   30    1.00000
-   31    1.57095
-   32    2.44644  HIGH
-   33    1.52193
-   34    2.24644
-   35    0.72193
-   36    0.72193
-   37    0.72193
-   38    0.72193
-   39    1.15678
-   40    0.72193
-   41    0.72193
-   42    1.57095
-   43    0.00000
-   44    0.72193
-   45    1.15678
-   46    0.72193
-   47    1.48548
-   48    1.97095
-   49    2.64644  HIGH
-   50    1.15678
-   51    2.17095
-   52    1.96096
-   53    2.72193  HIGH
-   54    2.12193
-   55    1.57095
-   56    2.37095
-   57    1.96096
-   58    2.52193  HIGH
-   59    1.15678
-   60    1.96096
-   61    1.89546
-   62    2.32193
-   63    1.84644
-   64    2.12193
-   65    1.57095
-   66    1.57095
-   67    2.12193
-   68    1.57095
-   69    1.57095
-   70    1.76096
-   71    2.12193
-   72    1.15678
-   73    2.64644  HIGH
-   74    1.96096
-   75    2.04644
-   76    2.12193
-   77    1.57095
-   78    2.17095
-   79    1.15678
-   80    1.76096
-   81    1.76096
-   82    2.12193
-   83    2.12193
-   84    1.15678
-   85    0.88129
-   86    1.76096
-   87    1.68548
-   88    1.57095
-   89    1.15678
-   90    1.96096
-   91    1.15678
-   92    1.96096
-   93    0.72193
-   94    0.46900
-   95    1.15678
-   96    1.96096
-   97    2.12193
-   98    2.52193  HIGH
-   99    2.44644  HIGH
-  100    2.04644
-  101    2.52193  HIGH
-  102    2.44644  HIGH
-  103    2.52193  HIGH
-  104    2.44644  HIGH
-  105    2.32193
-  106    2.37095
-  107    2.52193  HIGH
-  108    2.44644  HIGH
-  109    2.44644  HIGH
-  110    2.24644
-  111    2.37095
-  112    2.64644  HIGH
-  113    2.64644  HIGH
-  114    2.64644  HIGH
-  115    2.04644
-  116    2.37095
-  117    2.32193
-  118    2.04644
-  119    2.17095
-  120    2.17095
-  121    2.37095
-  122    1.84644
-  123    2.37095
-  124    1.84644
-  125    1.96096
-  126    2.17095
-  127    2.04644
-  128    2.04644
-  129    2.64644  HIGH
-  130    2.37095
-  131    1.72193
-  132    1.76096
-  133    0.92193
-  134    2.17095
-  135    2.04644
-  136    2.17095
-  137    2.37095
-  138    1.72193
-  139    2.04644
-  140    2.17095
-  141    2.04644
-  142    1.72193
-  143    2.04644
-  144    2.37095
-  145    1.84644
-  146    2.17095
-  147    2.04644
-  148    2.37095
-  149    2.17095
-  150    2.37095
-  151    2.04644
-  152    2.44644  HIGH
-  153    2.44644  HIGH
-  154    2.17095
-  155    2.04644
-  156    2.17095
-  157    2.37095
-  158    2.37095
-  159    2.37095
-  160    2.37095
-  161    2.37095
-  162    2.37095
-  163    2.37095
-  164    2.17095
-  165    2.17095
-  166    2.04644
-  167    2.37095
-  168    1.77095
-  169    2.04644
-  170    2.37095
-  171    2.37095
-  172    2.37095
-  173    2.37095
-  174    2.04644
-  175    1.84644
-  176    2.37095
-  177    2.04644
-  178    1.72193
-  179    2.04644
-  180    2.04644
-  181    2.04644
-  182    2.17095
-  183    1.84644
-  184    1.68548
-  185    1.29546
-  186    1.84644
-  187    1.35678
-  188    1.84644
-  189    2.37095
-  190    1.68548
-  191    0.92193
-  192    0.88129
-  193    1.36096
-  194    2.17095
-  195    2.17095
-  196    2.04644
-  197    2.17095
-  198    2.04644
-  199    2.17095
-  200    2.17095
-  201    2.37095
-  202    2.04644
-  203    2.17095
-  204    2.37095
-  205    2.37095
-  206    2.37095
-  207    2.37095
-  208    2.37095
-  209    1.72193
-  210    2.17095
-  211    1.84644
-  212    2.37095
-  213    2.44644  HIGH
-  214    1.68548
-  215    2.04644
-  216    1.77095
-  217    2.04644
-  218    2.17095
-  219    1.35678
+    0    2.04972
+    1    1.09500
+    2    1.21796
+    3    0.68930
+    4    1.71236
+    5    1.46537
+    6    0.88414
+    7    0.75752
+    8    2.30319
+    9    2.34571
+   10    1.50498
+   11    2.01982
+   12    1.90499
+   13    1.03709
+   14    1.40818
+   15    2.52929
+   16    1.46676
+   17    1.63267
+   18    2.11751
+   19    1.99855
+   20    1.36443
+   21    0.70023
+   22    2.77829
+   23    2.18832
+   24    0.82550
+   25    1.00893
+   26    2.40339
+   27    2.63660
+   28    1.86331
+   29    2.75445
+   30    2.83154
+   31    2.73550
+   32    3.42825  HIGH
+   33    2.84122
+   34    3.02318
+   35    1.40867
+   36    1.66687
+   37    1.64818
+   38    1.62288
+   39    2.23694
+   40    1.46263
+   41    1.72919
+   42    2.18438
+   43    1.40589
+   44    1.55498
+   45    1.90993
+   46    1.43830
+   47    2.54168
+   48    2.41007
+   49    3.59283  HIGH
+   50    2.20237
+   51    3.46308  HIGH
+   52    3.21224
+   53    3.48092  HIGH
+   54    3.13427
+   55    2.70096
+   56    3.65014  HIGH
+   57    3.18445
+   58    3.33810
+   59    2.03397
+   60    2.90377
+   61    3.16033
+   62    3.09724
+   63    3.06668
+   64    2.68327
+   65    2.24529
+   66    2.36232
+   67    2.76650
+   68    2.26963
+   69    2.52767
+   70    2.42113
+   71    2.85222
+   72    2.25428
+   73    3.22184
+   74    2.61524
+   75    2.92861
+   76    2.62091
+   77    2.55163
+   78    3.16411
+   79    2.44606
+   80    2.57022
+   81    2.90588
+   82    2.78422
+   83    3.02994
+   84    2.39233
+   85    2.25147
+   86    3.05895
+   87    2.87518
+   88    2.64446
+   89    1.95393
+   90    2.11711
+   91    2.20817
+   92    2.65485
+   93    1.66217
+   94    2.25792
+   95    2.08669
+   96    2.38735
+   97    2.87754
+   98    3.68922  HIGH
+   99    3.81478  HIGH
+  100    3.78294  HIGH
+  101    3.53745  HIGH
+  102    3.82369  HIGH
+  103    3.51220  HIGH
+  104    3.70589  HIGH
+  105    3.83292  HIGH
+  106    3.70525  HIGH
+  107    3.70251  HIGH
+  108    3.55421  HIGH
+  109    3.82174  HIGH
+  110    3.81585  HIGH
+  111    3.74286  HIGH
+  112    3.64267  HIGH
+  113    3.27789
+  114    3.71105  HIGH
+  115    3.75721  HIGH
+  116    3.52765  HIGH
+  117    3.50621  HIGH
+  118    3.38799  HIGH
+  119    3.39234  HIGH

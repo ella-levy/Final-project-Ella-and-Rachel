@@ -1,252 +1,201 @@
 CDR Detection Results - Light Chain
 ============================================================
 
-Sequences analysed: 10
-Positions: 212
-Threshold: 1.25678
-Mean entropy: 0.85661
-Std entropy: 0.40018
+Sequences analysed: 81
+Positions: 102
+Threshold: 3.1231
+Mean entropy: 2.61733
+Std entropy: 0.50577
 
-Candidate CDR regions (2 found):
+Candidate CDR regions (1 found):
 ------------------------------------------------------------
 
-CDR candidate 1: positions 30-33 (length=4, avg_H=1.5960)
- 3QEG_2       | Fab fragment of human anti-HIV anti | SSYL
- 1U8P_1       | ANTIBODY 2F5 (LIGHT CHAIN)          | SALA
- 4KMT_1       | light chain O12/KAPPA               | SYLN
- 6OGE_4       | Trastuzumab FAB LIGHT CHAIN         | TAVA
- 6OGE_2       | Pertuzumab FAB LIGHT CHAIN          | IGVA
- 1U8O_1       | ANTIBODY 2F5 (LIGHT CHAIN)          | SALA
- 5I1E_1       | FAB LIGHT CHAIN                     | SYLN
- 5I19_1       | FAB LIGHT CHAIN                     | SYLN
- 1DFB_1       | IGG1-KAPPA 3D6 FAB (LIGHT CHAIN)    | RWLA
- 5XRQ_2       | Fab H3v-47 light chain, anti-influe | SSYL
-
-CDR candidate 2: positions 104-106 (length=3, avg_H=1.6091)
- 3QEG_2       | Fab fragment of human anti-HIV anti | VEI
- 1U8P_1       | ANTIBODY 2F5 (LIGHT CHAIN)          | DVR
- 4KMT_1       | light chain O12/KAPPA               | EVK
- 6OGE_4       | Trastuzumab FAB LIGHT CHAIN         | EIK
- 6OGE_2       | Pertuzumab FAB LIGHT CHAIN          | EIK
- 1U8O_1       | ANTIBODY 2F5 (LIGHT CHAIN)          | DVR
- 5I1E_1       | FAB LIGHT CHAIN                     | EIK
- 5I19_1       | FAB LIGHT CHAIN                     | EIK
- 1DFB_1       | IGG1-KAPPA 3D6 FAB (LIGHT CHAIN)    | KRT
- 5XRQ_2       | Fab H3v-47 light chain, anti-influe | EIK
+CDR candidate 1: positions 90-93 (length=4, avg_H=3.4561)
+ 3QEG_2       | Fab fragment of human anti-HIV anti | QYGS
+ 1U8P_1       | ANTIBODY 2F5 (LIGHT CHAIN)          | LHFY
+ 4KMT_1       | light chain O12/KAPPA               | SYST
+ 6OGE_4       | Trastuzumab FAB LIGHT CHAIN         | HYTT
+ 6OGE_2       | Pertuzumab FAB LIGHT CHAIN          | YYIY
+ 1U8O_1       | ANTIBODY 2F5 (LIGHT CHAIN)          | LHFY
+ 5I1E_1       | FAB LIGHT CHAIN                     | SYST
+ 5I19_1       | FAB LIGHT CHAIN                     | SYST
+ 1DFB_1       | IGG1-KAPPA 3D6 FAB (LIGHT CHAIN)    | YNSY
+ 5XRQ_2       | Fab H3v-47 light chain, anti-influe | QYAT
+ 3BAE_1       | WO2 IgG2a Fab fragment Light Chain  | YYCF
+ 9B9J_4       | BIIG2 Fab Light Chain               | HKEY
+ 9B9K_4       | MINT1526A Fab Light Chain           | YFCG
+ 6GFF_4       | MHG-8 Fab light chain               | YWST
+ 5GS0_5       | light chain (anti-Lid)              | GNTL
+ 9PIW_2       | Light chain                         | VSQL
+ 9DL0_3       | Fab light chain                     | SSWF
+ 3WD5_2       | Adalimumab Light Chain              | YNRA
+ 9DZQ_3       | Human antibody PIV3HN-05 light chai | TWDD
+ 4K7P_1       | antibody rhumAb6 Fab fragment light | AFNP
+ 4K7P_4       | antibody 10C4 Fab fragment light ch | HYVT
+ 6PHD_2       | 2586 Antibody Fab, Light Chain      | DSSG
+ 5FHA_2       | Antibody 114 Fab light chain        | YNSA
+ 6R2S_1       | Antibody DB9 light chain            | TLTI
+ 5UY3_1       | Antibody PGT144 Fab light chain     | YCMQ
+ 6NN3_3       | Fab monoclonal antibody 860-55D, li | DSTV
+ 4YBL_3       | A32 antibody light chain            | YTDI
+ 3MLT_1       | Human monoclonal anti-HIV-1 gp120 V | DAST
+ 1MCO_1       | IGG1 MCG INTACT ANTIBODY (LIGHT CHA | SSYE
+ 3MLW_1       | Human monoclonal anti-HIV-1 gp120 V | SWDD
+ 6P9J_2       | human anti staphylococcus aureus an | SSYA
+ 3MLS_1       | Human monoclonal anti-HIV-1 gp120 V | DAST
+ 8TFP_1       | Light chain of Fab from C10-S66K an | DSSF
+ 3Q6F_1       | Light chain of Fab of human mAb 290 | DSNS
+ 1RZ8_1       | Fab 17b light chain                 | YNNW
+ 3PIQ_2       | Human monoclonal antibody 2909 Fab  | DSNS
+ 6OZ3_3       | N49P9.1 antibody Fab light chain    | GTRL
+ 6VN1_1       | Human monoclonal antibody 93k varia | YKSY
+ 7SN1_2       | neutralizing antibody C1C-A3 Fab li | TDFT
+ 8TFR_3       | Light chain from Fab of C10_S66K an | DSSF
+ 5W4L_4       | Antibody N5-i5 light chain          | SSYA
+ 5W4L_6       | Antibody N12-i3 light chain         | QYGT
+ 6U85_2       | antibody Fab Light chain            | YFCS
+ 5I1I_1       | FAB LIGHT CHAIN                     | VYYC
+ 3MLX_1       | Human monoclonal anti-HIV-1 gp120 V | WDGS
+ 6MEG_2       | antibody HEPC46 Light Chain         | AWDD
+ 3MA9_3       | Fab8066 FAB ANTIBODY FRAGMENT, Ligh | DSMT
+ 6OZ2_3       | N49P6 antibody Fab light chain      | GGGT
+ 3GIZ_1       | Fab fragment of anti-CD20 antibody  | RSNW
+ 5NST_1       | Light Chain of antibody MGD21       | CNCF
+ 6ELJ_2       | fAB light chain                     | GSTL
+ 6ELL_2       | fAB light chain                     | GSTL
+ 5I1A_1       | CNTO388 LIGHT CHAIN                 | RSNW
+ 3MOD_2       | ANTI-HIV-1 ANTIBODY 2F5 LIGHT CHAIN | LHFY
+ 9XSX_3       | the light chain of antibody CAV-CF2 | LTIS
+ 2I60_2       | ANTIBODY 17B LIGHT CHAIN            | YNNW
+ 9B75_2       | h44H10-V17 Antibody, light chain    | YTNY
+ 2PW2_2       | 2F5 Fab' light chain                | DTAT
+ 4XMK_1       | Light chain of HIV-1 gp120 V3-speci | YYCM
+ 5EA0_2       | Light chain of antibody 7968 Fab fr | VYYC
+ 4FNL_2       | Antibody C05, Light Chain           | YDGL
+ 6P9H_3       | Human anti staphylococcus aureus an | YDNW
+ 6N8D_2       | A1431 Fab light chain               | RSSW
+ 5I1J_1       | FAB LIGHT CHAIN                     | RSNW
+ 1YYL_2       | antibody 17b light chain            | YNNW
+ 1YYM_2       | antibody 17b light chain            | YNNW
+ 7SX7_3       | N49P9.3-FR3-3 ANTIBODY FAB LIGHT CH | GTKL
+ 6MEF_2       | antibody AR3C Light Chain           | YYRS
+ 5F9W_3       | Light chain of CH235-lineage antibo | YNNW
+ 4LST_3       | LIGHT CHAIN OF ANTIBODY VRC01       | FFGQ
+ 6MTT_1       | Antibody VRC46.01 Fb light chain    | SYSS
+ 8TUZ_2       | Light chain of human monoclonal ant | GYPH
+ 7MFA_2       | Antibody 10E8v4 Fab light chain     | DKSG
+ 3MUG_1       | Antibody PG16 Light Chain           | SSLT
+ 9OG2_3       | Monoclonal antibody 12I12 light cha | CQQA
+ 9OG2_5       | Monoclonal antibody 08E11 light cha | CQQS
+ 6DZN_1       | Antibody ADI-15878, light chain     | YYSS
+ 6B0E_1       | 1260 antibody, light chain          | YYCM
+ 6W4M_2       | ANTI-HIV ANTIBODY N12-I2 FAB LIGHT  | QYGS
+ 6B0W_1       | 1710 antibody, light chain          | WDSS
+ 4CC8_4       | MONOCLONAL ANTIBODY VRC03 FAB LIGHT | EFFG
 
 
 Full entropy map:
 ----------------------------------------
   Pos    Entropy  Note
-    0    1.15678
-    1    0.72193
-    2    0.72193
-    3    0.72193
-    4    0.46900
-    5    0.00000
-    6    0.00000
-    7    0.00000
-    8    0.72193
-    9    0.88129
-   10    0.00000
-   11    0.00000
-   12    0.72193
-   13    0.00000
-   14    0.72193
-   15    0.00000
-   16    0.72193
-   17    0.00000
-   18    1.37095  HIGH
-   19    0.00000
-   20    0.72193
-   21    0.72193
-   22    0.00000
-   23    0.46900
-   24    0.46900
-   25    0.00000
-   26    0.00000
-   27    1.48548  HIGH
-   28    0.97095
-   29    1.15678
-   30    1.35678  HIGH
-   31    2.17095  HIGH
-   32    1.37095  HIGH
-   33    1.48548  HIGH
-   34    0.72193
-   35    0.72193
-   36    1.37095  HIGH
-   37    0.00000
-   38    0.72193
-   39    0.72193
-   40    0.72193
-   41    1.37095  HIGH
-   42    1.76096  HIGH
-   43    0.72193
-   44    1.37095  HIGH
-   45    0.72193
-   46    0.00000
-   47    0.72193
-   48    0.72193
-   49    2.17095  HIGH
-   50    0.72193
-   51    0.46900
-   52    0.92193
-   53    1.15678
-   54    1.97095  HIGH
-   55    1.15678
-   56    0.72193
-   57    0.72193
-   58    0.72193
-   59    0.72193
-   60    0.72193
-   61    0.72193
-   62    0.72193
-   63    0.72193
-   64    0.72193
-   65    1.15678
-   66    0.72193
-   67    0.72193
-   68    0.72193
-   69    1.68548  HIGH
-   70    0.72193
-   71    0.72193
-   72    0.72193
-   73    0.72193
-   74    0.72193
-   75    0.72193
-   76    0.72193
-   77    0.72193
-   78    1.37095  HIGH
-   79    0.72193
-   80    1.15678
-   81    0.72193
-   82    0.72193
-   83    0.92193
-   84    0.72193
-   85    0.72193
-   86    0.00000
-   87    0.72193
-   88    0.72193
-   89    0.00000
-   90    2.24644  HIGH
-   91    1.15678
-   92    2.32193  HIGH
-   93    1.36096  HIGH
-   94    0.88129
-   95    2.17095  HIGH
-   96    0.92193
-   97    0.92193
-   98    0.46900
-   99    1.29546  HIGH
-  100    0.92193
-  101    0.92193
-  102    1.68548  HIGH
-  103    0.92193
-  104    1.57095  HIGH
-  105    1.68548  HIGH
-  106    1.57095  HIGH
-  107    0.92193
-  108    0.92193
-  109    0.92193
-  110    0.92193
-  111    0.46900
-  112    0.92193
-  113    0.92193
-  114    0.92193
-  115    0.46900
-  116    0.92193
-  117    0.92193
-  118    0.92193
-  119    0.46900
-  120    0.92193
-  121    0.92193
-  122    0.92193
-  123    0.92193
-  124    0.92193
-  125    0.92193
-  126    0.92193
-  127    0.92193
-  128    0.92193
-  129    0.92193
-  130    0.92193
-  131    0.92193
-  132    0.46900
-  133    0.92193
-  134    0.92193
-  135    0.46900
-  136    0.92193
-  137    0.46900
-  138    0.92193
-  139    0.92193
-  140    0.92193
-  141    0.92193
-  142    0.92193
-  143    0.92193
-  144    0.92193
-  145    0.92193
-  146    0.92193
-  147    0.92193
-  148    0.92193
-  149    0.92193
-  150    0.92193
-  151    0.92193
-  152    0.92193
-  153    0.92193
-  154    0.92193
-  155    0.92193
-  156    0.72193
-  157    0.92193
-  158    0.92193
-  159    0.72193
-  160    0.92193
-  161    0.92193
-  162    0.92193
-  163    0.92193
-  164    0.92193
-  165    0.92193
-  166    0.92193
-  167    0.72193
-  168    0.72193
-  169    0.92193
-  170    0.92193
-  171    0.72193
-  172    0.92193
-  173    0.46900
-  174    0.72193
-  175    0.92193
-  176    0.46900
-  177    0.46900
-  178    0.46900
-  179    0.92193
-  180    0.92193
-  181    0.92193
-  182    0.92193
-  183    0.92193
-  184    0.92193
-  185    0.92193
-  186    0.92193
-  187    0.46900
-  188    0.92193
-  189    0.92193
-  190    0.92193
-  191    0.92193
-  192    1.29546  HIGH
-  193    0.92193
-  194    0.92193
-  195    0.92193
-  196    0.92193
-  197    0.92193
-  198    0.92193
-  199    0.92193
-  200    0.92193
-  201    0.92193
-  202    0.46900
-  203    0.92193
-  204    0.92193
-  205    0.92193
-  206    0.92193
-  207    0.92193
-  208    0.92193
-  209    0.92193
-  210    0.92193
-  211    0.92193
+    0    2.75455
+    1    2.43084
+    2    2.60415
+    3    1.99072
+    4    1.41695
+    5    0.95413
+    6    1.57772
+    7    1.37467
+    8    2.05649
+    9    2.34902
+   10    1.46263
+   11    2.01583
+   12    2.57135
+   13    1.87205
+   14    2.41226
+   15    1.80238
+   16    2.59983
+   17    2.45548
+   18    2.69682
+   19    1.90962
+   20    2.36291
+   21    2.17582
+   22    1.96382
+   23    2.29106
+   24    2.26307
+   25    1.88504
+   26    2.71650
+   27    3.02484
+   28    2.84763
+   29    3.22596  HIGH
+   30    3.04323
+   31    3.46075  HIGH
+   32    2.93678
+   33    3.01774
+   34    2.50978
+   35    2.49104
+   36    2.17943
+   37    2.36544
+   38    2.91950
+   39    2.67819
+   40    2.73812
+   41    3.27808  HIGH
+   42    2.72768
+   43    2.70980
+   44    2.91665
+   45    2.37072
+   46    2.44902
+   47    2.69408
+   48    2.83378
+   49    3.50632  HIGH
+   50    3.20464  HIGH
+   51    2.69152
+   52    3.41229  HIGH
+   53    2.99719
+   54    3.28628  HIGH
+   55    3.17730  HIGH
+   56    2.66782
+   57    2.97498
+   58    2.66938
+   59    2.83132
+   60    2.50412
+   61    2.34393
+   62    2.10102
+   63    2.18275
+   64    2.63553
+   65    2.10896
+   66    2.14664
+   67    2.47387
+   68    2.48076
+   69    3.12892  HIGH
+   70    2.68698
+   71    2.12936
+   72    2.45667
+   73    2.48894
+   74    2.67378
+   75    2.65544
+   76    3.02949
+   77    2.65277
+   78    2.91988
+   79    3.14739  HIGH
+   80    2.71978
+   81    2.59248
+   82    3.04242
+   83    2.69874
+   84    2.91928
+   85    2.02412
+   86    2.49822
+   87    2.53324
+   88    2.80057
+   89    3.02102
+   90    3.35237  HIGH
+   91    3.19319  HIGH
+   92    3.68562  HIGH
+   93    3.59333  HIGH
+   94    2.87548
+   95    3.70473  HIGH
+   96    3.10640
+   97    3.01818
+   98    2.76695
+   99    2.91609
+  100    2.43549
+  101    2.71960
